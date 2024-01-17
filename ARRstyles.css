@@ -1,0 +1,188 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #CBD5E1, #64748B);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #F1F5F9;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+}
+
+h3 {
+    font-size: 1.75rem;
+    padding: 20px;
+    text-decoration: underline;
+    margin: 0 auto;
+    font-family: 'Syne', sans-serif;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+#heading {
+    width: 100%;
+    background-color: #0F172A;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+}
+
+#tagline {
+    text-align: center;
+
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+    max-width: 1000px;
+}
+
+#about-blurb {
+        margin: 0px;
+    border: 0px;
+    width: 100%;
+    font-size: 1.5rem;
+    max-width: 1000px;
+}
+
+#about-lambo {
+    width: 60%;
+    max-width: 100%;
+    padding-left: 100x;
+    padding-top: 20px;
+}
+
+td {
+    text-align: left;
+}
+
+#timetable {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+#timetable tr:nth-child(odd) {
+    background-color: #E2E8F0;
+}
+
+.timetable-headings {
+    background-color: #334155;
+    text-decoration: underline;
+    font-family: 'Syne', sans-serif;
+}
+
+.timetable-headings th {
+    background-color: #CBD5E1;
+}
+
+.weekdays-table {
+    text-align: center;
+    padding-left: 6px;
+    font-family: 'Syne', sans-serif;
+    text-decoration: underline;
+}
+
+#text-paragraph {
+    width: 75%;
+    text-align: left;
+}
+
+.form-group {
+    max-width: 1000px;
+    text-align: right;
+    margin: 8px;
+}
+
+#application-form {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#application-form label {
+    font-weight: bold;
+}
+
+#application-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-paragraph {
+    display: flex;
+
+}
+
+.form-group input[type="submit"] {
+    background-color: #F97316;
+    color: #020617;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#application-form input[type="text"],
+#application-form input[type="email"] {
+    width: 300px;
+}
+
+
+
+.footer-links {
+    list-style-type: none;
+    margin: 20;
+    padding: 20;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 40px;
+}
+
+#footer {
+    width: 100%;
+    background: #E2E8F0;
+    text-align: center;
+}
+
+#copyright {
+    text-align: right;
+    padding-right: 10px;
+}
